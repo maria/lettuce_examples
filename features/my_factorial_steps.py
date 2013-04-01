@@ -13,8 +13,6 @@ def get_the_number(step, given_factorial):
     assert world.factorial == int(given_factorial), \
         "Got %s" % world.factorial
 
-##################################################
-
 @step('I have the numbers (\d+), (\d+)')
 def i_have_numbers(step, a, b):
     world.a = int(a)
