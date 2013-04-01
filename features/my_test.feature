@@ -3,6 +3,7 @@ Feature: Compute factorial
     As a developer
     I'll implement factorial
 
+    @important
     Scenario Outline: Factorials for numbers 0-2
         Given I have the number <number>
         When I compute his factorial
